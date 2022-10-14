@@ -10,13 +10,17 @@ def return_hash_table():
     return hash_table
 
 
-# Takes address and package data from .csv files and adds them to the hash table
+# Takes address data from .csv files and returns addresses
+# O(n) linear time
+def append_address_info():
+    with open('csv/addresses.csv') as address_list:
+        addresses = list(csv.reader(address_list, delimiter=','))
+        return addresses
+
+
+# Takes package data from .csv files and adds them to the hash table
 # O(n) linear time
 def append_packages():
-    def append_address_info():
-        with open('csv/addresses.csv') as address_list:
-            addresses = list(csv.reader(address_list, delimiter=','))
-            return addresses
     address_info = append_address_info()
     with open('csv/packages.csv', encoding='utf-8-sig') as p:
         package_list = csv.reader(p, delimiter=',')
@@ -40,3 +44,11 @@ def append_packages():
                               departure_time, delivery_time, address_id)
             hash_table.insert(package_id, package)
     return hash_table
+
+
+# Returns distance information from distances.csv file
+# O(n) linear time
+def return_distance_info():
+    with open('csv/distances.csv') as distances:
+        distance = list(csv.reader(distances, delimiter=','))
+        return distance

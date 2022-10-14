@@ -1,18 +1,11 @@
 import csv
 import datetime
 import filereader
+from filereader import return_distance_info
 from packages import p_info
 from truck import truck1, truck2, truck3
 hash_table_1 = filereader.append_packages()
 hash_table_2 = filereader.return_hash_table()
-
-
-# Returns distance information from distances.csv file
-# O(n) linear time
-def return_distance_info():
-    with open('csv/distances.csv') as distances:
-        distance = list(csv.reader(distances, delimiter=','))
-        return distance
 
 
 # Finds distance between two given addresses using distance information from function return_distance_info()
