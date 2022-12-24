@@ -1,8 +1,9 @@
 Introduction
+
 Implementation of an algorithm to route delivery trucks that will allow  to meet all delivery constraints while traveling under 140 miles. 
 
-
 Scenario
+
 A delivery company needs to determine an efficient route and delivery distribution for their Daily Local Deliveries (DLD) because packages are not currently being consistently delivered by their promised deadline. The city DLD route has three trucks, two drivers, and an average of 40 packages to deliver each day. Each package has specific criteria and delivery requirements.
 
 Determine an algorithm, write code, and present a solution where all 40 packages will be delivered on time while meeting each package’s requirements and keeping the combined total distance traveled under 140 miles for both trucks.
@@ -11,6 +12,7 @@ The supervisor should be able to see, at assigned points, the progress of each t
 
 
 Assumptions
+
 •   Each truck can carry a maximum of 16 packages, and the ID number of each package is unique.
 
 •   The trucks travel at an average speed of 18 miles per hour and have an infinite amount of gas with no need to stop.
@@ -31,8 +33,8 @@ Assumptions
 
 •   The day ends when all 40 packages have been delivered.
 
-
 Develop a hash table, without using any additional libraries or classes, that has an insertion function that takes the following components as input and inserts the components into the hash table:
+
 •   package ID number
 
 •   delivery address
@@ -49,6 +51,7 @@ Develop a hash table, without using any additional libraries or classes, that ha
 
 
 Develop a look-up function that takes the following components as input and returns the corresponding data elements:
+
 •   package ID number
 
 •   delivery address
@@ -64,4 +67,4 @@ Develop a look-up function that takes the following components as input and retu
 •   delivery status (i.e., “at the hub,” “en route,” or “delivered”), including the delivery time
 
 
-Provide an interface for the user to view the status and info of any package at any time, and the total mileage traveled by all trucks. (The delivery status should report the package as at the hub, en route, or delivered. Delivery status must include the time.)
+Interface for the user to view the status and info of any package at any time, and the total mileage traveled by all trucks, is provided. (The delivery status should report the package as at the hub, en route, or delivered. Delivery status must include the time.)
