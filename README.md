@@ -1,6 +1,6 @@
 Introduction
 
-Implementation of an algorithm to route delivery trucks that will allow  to meet all delivery constraints while traveling under 140 miles. 
+Implementation of an algorithm to route delivery trucks and determine the best route that will allow  to meet all delivery constraints while traveling under 140 miles. 
 
 Scenario
 
