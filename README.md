@@ -1,6 +1,6 @@
 Introduction
 
-Implementation of an algorithm to route delivery trucks and determine the best route that will allow  to meet all delivery constraints while traveling under 140 miles. 
+Writting a HashMap data structurein Python and implementating an algorithm to route delivery trucks and determine the best route to meet all delivery constraints while traveling under 140 miles in total.
 
 Scenario
 
