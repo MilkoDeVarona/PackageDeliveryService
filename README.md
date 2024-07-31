@@ -1,6 +1,6 @@
 Introduction
 
-Writting a HashMap data structurein Python and implementating an algorithm to route delivery trucks and determine the best route to meet all delivery constraints while traveling under 140 miles in total.
+Writting a HashMap data structure in Python and implementing an algorithm to route delivery trucks and determine the best route to meet all delivery constraints while traveling under 140 miles in total.
 
 Scenario
 
@@ -23,7 +23,7 @@ Assumptions
 
 •   Drivers leave the hub no earlier than 8:00 a.m., with the truck loaded, and can return to the hub for packages if needed.
 
-•   The delivery and loading times are instantaneous, i.e., no time passes while at a delivery or when moving packages to a truck at the hub (that time is factored into the calculation of the average speed of the trucks).
+•   The delivery and loading times are instantaneous, i.e., no time passes while at delivery or when moving packages to a truck at the hub (that time is factored into the calculation of the average speed of the trucks).
 
 •   There is up to one special note associated with a package.
 
@@ -50,7 +50,7 @@ Develop a hash table, without using any additional libraries or classes, that ha
 •   delivery status (e.g., delivered, en route)
 
 
-Develop a look-up function that takes the following components as input and returns the corresponding data elements:
+Develop a lookup function that takes the following components as input and returns the corresponding data elements:
 
 •   package ID number
 
@@ -67,4 +67,4 @@ Develop a look-up function that takes the following components as input and retu
 •   delivery status (i.e., “at the hub,” “en route,” or “delivered”), including the delivery time
 
 
-Interface for the user to view the status and info of any package at any time, and the total mileage traveled by all trucks, is provided. (The delivery status should report the package as at the hub, en route, or delivered. Delivery status must include the time.)
+An interface for the user to view the status and info of any package at any time, and the total mileage traveled by all trucks, is provided. (The delivery status should report the package as at the hub, en route, or delivered. Delivery status must include the time.)
